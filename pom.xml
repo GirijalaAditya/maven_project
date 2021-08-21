@@ -77,7 +77,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Snapshot Nexus Repository </name>
-	      <url>http://3.235.140.90:8081/repository/maven-webapp-release/</url>
+	      <url>http://3.235.140.90:8081/repository/maven-webapp-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>

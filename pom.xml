@@ -64,4 +64,24 @@
       </plugins>
     </pluginManagement>
   </build>
+  
+  
+  
+  <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name> Releases Nexus Repository</name>
+	      <url>http://3.234.240.20:8081/repository/maven_releases/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Snapshot Nexus Repository </name>
+	      <url>http://3.234.240.20:8081/repository/maven_snapshots/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
+  
+  
 </project>

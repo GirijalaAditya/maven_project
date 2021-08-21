@@ -67,18 +67,17 @@
   
   
   
-  <distributionManagement>
-	
+  	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name> Releases Nexus Repository</name>
-	      <url>http://3.234.240.20:8081/repository/maven_releases/</url>
+	      <url>http://3.235.140.90:8081/repository/maven-webapp-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Snapshot Nexus Repository </name>
-	      <url>http://3.234.240.20:8081/repository/maven_snapshots/</url>
+	      <url>http://3.235.140.90:8081/repository/maven-webapp-release/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
